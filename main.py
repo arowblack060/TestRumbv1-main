@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-@Author: Ryuku
+@Author: Arrow
 @Date: 05/03/2024
 """
 import re 
@@ -16,10 +16,8 @@ from bs4 import BeautifulSoup
 
 def banner():
     print("""
-        ┳┓     ┓    
-        ┣┫┓┏┏┳┓┣┓┏┓╋
-        ┛┗┗┻┛┗┗┗┛┗┛┗ V3
-            Ryuku wishes you a good viewbotting ^_^
+       TestRumbv1 V3
+            Black wishes you a good viewbotting ^_^
           """)
 
 
@@ -29,7 +27,7 @@ def extract_vid(livestream):
 
     Args:
         livestream (str): The URL of the livestream.
-            Example: 'https://rumble.com/v4gdg8c-real-news-and-honest-views.html'
+            Example: 'https://rumble.com/v5cicf9-bryan-danielson-wins-aew-aew-all-in-2024-results-match-grades.html?mref=3s7ccz&mc=a1ixe'
 
     Returns:
         str: The video ID extracted from the livestream URL, or None if not found.
